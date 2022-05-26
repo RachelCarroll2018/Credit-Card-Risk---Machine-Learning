@@ -34,11 +34,14 @@ To begin:
 
 #### Use the above to answer the following questions:
 
-* Which model had the best balanced accuracy score?
+### Which model had the best balanced accuracy score?**
+> Oversampling, SMOTE, and under had equal 99.48% accuracy score
+> 
+### Which model had the best recall score?**
+> High risk Oversampling, High risk SMOTE, High risk Combination all had perfect recall
 >
-* Which model had the best recall score?
->
-* Which model had the best geometric mean score?
+### Which model had the best geometric mean score?**
+> Smote, over, under, and combination all had geo scores of .99
 
 ### Ensemble Learning
 
@@ -62,10 +65,14 @@ To begin:
 
 Use the above to answer the following questions:
 
-* Which model had the best balanced accuracy score?
+### Which model had the best balanced accuracy score?
+> Easy Ensemble Classifier
 
-* Which model had the best recall score?
+### Which model had the best recall score?
+> All but high risk in Easy Ensemble had perfect recall
 
-* Which model had the best geometric mean score?
+### Which model had the best geometric mean score?
+> Random Forest
 
-* What are the top three features?
+### What are the top three features?
+> loan_status_low_risk', loan_status_high_risk, total_rec_int
