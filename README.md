@@ -34,13 +34,13 @@ To begin:
 
 #### Use the above to answer the following questions:
 
-### Which model had the best balanced accuracy score?**
+### Which model had the best balanced accuracy score?
 > Oversampling, SMOTE, and under had equal 99.48% accuracy score
 > 
-### Which model had the best recall score?**
+### Which model had the best recall score?
 > High risk Oversampling, High risk SMOTE, High risk Combination all had perfect recall
 >
-### Which model had the best geometric mean score?**
+### Which model had the best geometric mean score?
 > Smote, over, under, and combination all had geo scores of .99
 
 ### Ensemble Learning
